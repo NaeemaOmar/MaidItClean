@@ -12,47 +12,37 @@
 
 </head>
 <body>
-    <div class="container-fluid p-0">
-        <!-- p-0 ensures the container stretches the width of the screen -->
         <nav class="navbar navbar-expand bg-success">
-            <!-- .navbar-expand controls size of the navBar. alt = adding -lg -->
-            <!-- So far, I can't align it to the end -->
-            <a class="navbar-brand fw-bold" href="#">Maid-It-Clean</a>
-            <!-- .fw-bold makes the title/heading bold -->
-            <!-- by excluding it from the link, it's considerably seperate 
-                 and therefore makes a good logo -->
-            <div class="container border">
-                <!-- This creates a container w/in the navbar to work in -->
-                <ul class="navbar-nav align-items">
-                    <!-- Initializes the unordered list as a navbar type -->
-                    <li class="nav-item">
-                        <!-- .nav-item initializes the item as nav-style -->
-                        <a href="/index.html" class="nav-link">Home</a>
-                        <!-- nav-link styles the nav-item so it's not blue or underlined -->
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link"> About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link"> Cleaning</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link"> Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link"> Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link"> Contact us</a>
-                    </li>
+            <div class="container logoDivWidth">
+                <a href="" class="navbar-brand">
+                    <img src="/logo.jpg" class="img-fluid d-flex justify-content-center" alt="">
+                </a>
+            </div>
 
-                    
-
-                    
+            <div =  class="navLinkDivWidth">
+                <!-- I want to add a custom left margin to this div because
+                     the default and .container margins are not reg  -->
+                <ul class="navbar-nav d-flex justify-content-evenly">
+                    <li class="nav-item">
+                        <a href="/index.html" class="nav-link" >Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/aboutPage.html" class="nav-link" >About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/servicesPage.html" class="nav-link" >Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/productsPage.html" class="nav-link" >Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/contactPage.html"></a>
+                    </li>
                 </ul>
             </div>
-        </nav>
-    </div>
-    
+    </nav>
+<!-- To add for funsies: make the navbar fixed -->
+
+
 </body>
 </html>
